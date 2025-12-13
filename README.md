@@ -38,9 +38,8 @@ flowchart LR
     A((ROS2)) --> B((Nodo Publisher))
     B --> C((/pose_command))
     C --> D((Nodo Listener))
+```
 
-
-```markdown
 
 Por otro lado, para lograr una visualización completa del sistema y evitar posibles colisiones, fue necesario tener en cuenta el modelado completo del kit Phantom. Durante este proceso se identificó que faltaban algunos elementos, como la ventosa, entre otros componentes, los cuales debían ser incluidos para una representación más precisa del robot.
 
