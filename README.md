@@ -20,7 +20,7 @@ Indice:
 ## Objetivos
 
 <p align="center">
-  <img src="images/pincherP.jpg" alt="Pincher" width="300">
+  <img src="images/pincherP.jpeg" alt="Pincher" width="300">
 </p>
 
 
