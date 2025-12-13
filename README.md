@@ -19,7 +19,9 @@ Indice:
 
 ## Objetivos
 
-![Pincher](images/pincherP.jpeg)
+<p align="center">
+  <img src="images/pincherP.jpg" alt="Pincher" width="300">
+</p>
 
 
 El objetivo principal de este laboratorio es comenzar a aplicar los conceptos de ROS 2 que hemos ido adquiriendo, con el fin de generar trayectorias para el robot Pincher. Además, se ponen en práctica varios contenidos abordados en la clase magistral, como la cinemática inversa, entre otros temas.
