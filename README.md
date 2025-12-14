@@ -5,7 +5,7 @@ Proyecto final de Robótica 2025-2s
 1. Jeison Nicolás Diaz Arciniegas [jediazar@unal.co](JeisonD0819)
 2. David Santiago [jediazar@unal.co](JeisonD0819)
 3. Brayan [jediazar@unal.co](JeisonD0819)
-4. Sergio [jediazar@unal.co](JeisonD0819)
+4. Sergio Avellaneda Piñeros [savellaneda@unal.co](savellanedap)
 
 # Informe
 
