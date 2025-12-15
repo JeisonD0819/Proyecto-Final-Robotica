@@ -72,6 +72,16 @@ flowchart TD
 
 Para la primera parte del proyecto, se creó el paquete correspondiente y el script encargado de implementar la lógica del sistema. En nuestro caso, se propuso desarrollar un nodo que sea publisher y listener a la vez. El listener se encarga de escuchar los mensajes publicados, mientras que el publisher publica la información en el tópico definido para esta primera etapa del proyecto, el cual es /pose_command. De esta manera, es posible definir una pose tanto en el robot real como en el robot simulado, utilizando RViz, en la siguiente imagen con la ayuda de nuestra herramienta rqt podremos ver la arquitectura de nuestro nodo, con algunos de los otros nodos.
 
+### .xacro
+
+<img width="559" height="415" alt="image" src="https://github.com/user-attachments/assets/e8e9ec1d-15e8-4e19-8df6-ab76e7557156" />
+
+<img width="857" height="730" alt="image" src="https://github.com/user-attachments/assets/0fad0fa8-d727-4189-9c8e-8c1c757f9be8" />
+
+<img width="1087" height="737" alt="image" src="https://github.com/user-attachments/assets/c563e37b-3ab9-4dc3-aaca-dd64b239e572" />
+
+
+
 ## Diagrama de arquitectura
 
 ![Diagrama de nodos](images/rqt.JPG)
