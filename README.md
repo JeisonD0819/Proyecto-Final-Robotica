@@ -87,19 +87,21 @@ Finalmente, se requería mover el robot de manera lineal mediante el uso de las 
 
 ### .xacro
 
-Para esta parte, se editaron los diferentes archivos .xacro dados como base, los cuales contienen definiciones de hardware y configuraciones específicas del sistema de control. Para ser mas especifico se editaron los archivos (`kit.xacro`) y (`phantomx_pincher_arm.xacro`). Al editar estos y ademas subir los diferentes (`.stl`) a la carpeta (`/meshes/STL/`) podiamos visualizar el robot simulado en Rviz, como se ve en la siguiente imagen:
+Para el desarrollo de esta etapa del proyecto se realizó la edición y adaptación de los distintos archivos (`.xacro`) proporcionados como base, los cuales permiten definir de forma paramétrica la estructura mecánica, la geometría y ciertos aspectos del sistema de control del robot PhantomX Pincher. En particular, se trabajó sobre los archivos (`kit.xacro`) y (`phantomx_pincher_arm.xacro`), ya que estos contienen la descripción principal del conjunto del robot y de su brazo manipulador.
+
+Durante este proceso, se modificaron las referencias a los modelos tridimensionales y se incorporaron nuevos archivos de tipo(`.stl`), los cuales fueron ubicados en la carpeta (`/meshes/STL/`). Estos archivos corresponden a las distintas partes físicas del kit (canastilla, soporte de la camara y el gripper neumatico) y son utilizados principalmente para la visualización en el entorno de simulación. Una vez realizadas estas modificaciones, fue posible visualizar correctamente el robot en RViz, confirmando que la estructura cinemática y la jerarquía de enlaces (`links`) y articulaciones (`joints`) estaban definidas de manera adecuada, como se muestra en la siguiente figura.
 
 <img width="857" height="730" alt="image" src="https://github.com/user-attachments/assets/0fad0fa8-d727-4189-9c8e-8c1c757f9be8" />
 
-Adaemas para ver el "mundo real" debiamos hacer que las coliciones envolver los diferentes componentes de kit en rectangulos
+Con el fin de acercar la simulación al comportamiento del “mundo real”, se procedió a definir las colisiones de cada uno de los componentes del robot. Para ello, se optó por envolver las distintas partes del kit en geometrías simples, principalmente prismas rectangulares (cajas), que aproximan el volumen real de cada componente. Este enfoque permite reducir la complejidad computacional en la simulación, al tiempo que mantiene una representación suficientemente precisa para la detección de colisiones y futuras tareas de planificación de movimiento, como se muestra a continuación.
 
 <img width="1087" height="737" alt="image" src="https://github.com/user-attachments/assets/c563e37b-3ab9-4dc3-aaca-dd64b239e572" />
 
-Durante este proceso obtuvimos una dificultad con el gripper neumatico, ya que este tenia un modelado algo complejo, por lo que se decidio hacer uno mas sencillo, pero que llevara a envolver su area de trabajo para el tema de las colisiones. La propuesta que se realizo fue la siguiente:
+Durante la implementación de las colisiones se presentó una dificultad particular con el gripper neumático, debido a que su modelado original resultaba demasiado complejo para ser utilizado directamente en la simulación de colisiones (tanto en la etapa se subir los archivos, asi como en su ensamble y su consumo computacional). Esta complejidad podía generar errores en el ensamble de colisiones o afectar el desempeño del sistema. Por esta razón, se decidió simplificar su representación geométrica, manteniendo únicamente un volumen que envolviera el área de trabajo del gripper. De esta manera, se garantizo que las colisiones representen correctamente el espacio ocupado por el efector final durante su operación, como se observa en la figura.
 
 <img width="559" height="415" alt="image" src="https://github.com/user-attachments/assets/e8e9ec1d-15e8-4e19-8df6-ab76e7557156" />
 
-Finalment, cabe resaltar que el uso de un (`.xacro`) sirve para la descripción del robot PhantomX Pincher como una representación clara, modular y extensible del sistema robótico. Gracias a la separación entre estructura mecánica, geometría y control, el modelo facilita la incorporación de nuevos componentes, como sensores o herramientas, así como la adaptación a distintos entornos de simulación y control dentro del ecosistema ROS 2.
+Finalmente, cabe destacar que el uso de archivos (`.xacro`) resulta fundamental para la descripción del robot PhantomX Pincher, ya que permite construir un modelo claro, modular y extensible. La separación entre la estructura mecánica, la geometría visual y los elementos de colisión facilita la incorporación de nuevos componentes, como sensores o herramientas adicionales, así como la adaptación del robot a distintos entornos de simulación y control dentro del ecosistema ROS 2. Este enfoque no solo mejora la organización del modelo, sino que también simplifica su mantenimiento y escalabilidad para futuros desarrollos.
 
 ## Planos y elementos utilizados
 
