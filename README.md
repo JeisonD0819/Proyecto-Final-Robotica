@@ -33,12 +33,7 @@ Para la primera parte del proyecto, se creó el paquete correspondiente y el scr
 
 ## Diagrama de arquitectura
 
-```mermaid
-flowchart LR
-    A((ROS2)) --> B((Nodo Publisher))
-    B --> C((/pose_command))
-    C --> D((Nodo Listener))
-```
+![Diagrama de nodos](images/rqt.jpeg)
 
 
 Por otro lado, para lograr una visualización completa del sistema y evitar posibles colisiones, fue necesario tener en cuenta el modelado completo del kit Phantom. Durante este proceso se identificó que faltaban algunos elementos, como la ventosa, entre otros componentes, los cuales debían ser incluidos para una representación más precisa del robot.
@@ -49,6 +44,12 @@ Para la segunda parte del proyecto, se integró un módulo con relé que permiti
 
 Finalmente, se requería mover el robot de manera lineal mediante el uso de las teclas, es decir, controlando sus desplazamientos en los ejes X, Y y Z. Para lograr este objetivo, se implementó la cinemática inversa del robot. Una vez obtenida, fue posible controlar el movimiento en el espacio cartesiano de tal forma que, al variar una coordenada (por ejemplo, X), las demás coordenadas se mantienen constantes. Este mismo principio se aplica de manera análoga para los ejes Y y Z.
 
+```mermaid
+flowchart LR
+    A((ROS2)) --> B((Nodo Publisher))
+    B --> C((/pose_command))
+    C --> D((Nodo Listener))
+```
 
 ## Planos y elementos utilizados
 
