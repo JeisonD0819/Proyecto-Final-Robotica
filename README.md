@@ -106,6 +106,9 @@ La conexión no es directa por dos razones físicas fundamentales:
 
 Posteriormente, se subió un [código](https://github.com/JeisonD0819/Proyecto-Final-Robotica/blob/main/Codigos/Arduino/Arduino.md) al Arduino, el cual permite que con la tecla "b" o "B" el sistema se prenda, y al volverla a oprimir se apague por medio de la señal que envia al pin 8 del Arduino.
 
+## Workspace
+Se agrego el workspace completo en la carpeta [phantom_ws](Codigos/phantom_ws/).
+
 ## Videos
 
 - Rutina de movimiento del robot para la manipulación y secuencia de los diferentes bloques. [Video](https://youtu.be/xbvq-HY6PJw)  
