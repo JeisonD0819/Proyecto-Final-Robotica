@@ -3,8 +3,8 @@ Proyecto final de Robótica 2025-2s
 
 # Integrantes
 1. Jeison Nicolás Diaz Arciniegas [jediazar@unal.co](JeisonD0819)
-2. David Santiago [dacuellarl@unal.edu.co](DavSacl)
-3. Brayan [bsantosg@unal.edu.co](Brayan-Santos-G)
+2. David Santiago Cuellar Lopez [dacuellarl@unal.edu.co](DavSacl)
+3. Brayan Yesid Santos Gonzalez [bsantosg@unal.edu.co](Brayan-Santos-G)
 4. Sergio Avellaneda Piñeros [savellaneda@unal.co](savellanedap)
 
 # Informe
