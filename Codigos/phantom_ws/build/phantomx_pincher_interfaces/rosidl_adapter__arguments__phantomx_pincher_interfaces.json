@@ -1,0 +1,6 @@
+{
+  "package_name": "phantomx_pincher_interfaces",
+  "non_idl_tuples": [
+    "/home/david/ros_humble/proyecto_ws/KIT_Phantom_X_Pincher_ROS2/phantom_ws/src/phantomx_pincher_interfaces:msg/PoseCommand.msg"
+  ]
+}

@@ -1,0 +1,24 @@
+[1.821s] Invoking command in '/home/david/ros_humble/proyecto_ws/KIT_Phantom_X_Pincher_ROS2/phantom_ws/src/pincher_cproyect': PYTHONPATH=/home/david/ros_humble/proyecto_ws/KIT_Phantom_X_Pincher_ROS2/phantom_ws/build/pincher_cproyect/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/david/ros_humble/proyecto_ws/KIT_Phantom_X_Pincher_ROS2/phantom_ws/install/pincher_cproyect/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/pincher_cproyect build --build-base /home/david/ros_humble/proyecto_ws/KIT_Phantom_X_Pincher_ROS2/phantom_ws/build/pincher_cproyect/build install --record /home/david/ros_humble/proyecto_ws/KIT_Phantom_X_Pincher_ROS2/phantom_ws/build/pincher_cproyect/install.log --single-version-externally-managed install_data
+[2.490s] running egg_info
+[2.491s] writing ../../build/pincher_cproyect/pincher_cproyect.egg-info/PKG-INFO
+[2.491s] writing dependency_links to ../../build/pincher_cproyect/pincher_cproyect.egg-info/dependency_links.txt
+[2.494s] writing entry points to ../../build/pincher_cproyect/pincher_cproyect.egg-info/entry_points.txt
+[2.494s] writing requirements to ../../build/pincher_cproyect/pincher_cproyect.egg-info/requires.txt
+[2.494s] writing top-level names to ../../build/pincher_cproyect/pincher_cproyect.egg-info/top_level.txt
+[2.500s] reading manifest file '../../build/pincher_cproyect/pincher_cproyect.egg-info/SOURCES.txt'
+[2.503s] writing manifest file '../../build/pincher_cproyect/pincher_cproyect.egg-info/SOURCES.txt'
+[2.510s] running build
+[2.510s] running build_py
+[2.510s] copying pincher_cproyect/mover.py -> /home/david/ros_humble/proyecto_ws/KIT_Phantom_X_Pincher_ROS2/phantom_ws/build/pincher_cproyect/build/lib/pincher_cproyect
+[2.511s] running install
+[2.511s] running install_lib
+[2.511s] copying /home/david/ros_humble/proyecto_ws/KIT_Phantom_X_Pincher_ROS2/phantom_ws/build/pincher_cproyect/build/lib/pincher_cproyect/mover.py -> /home/david/ros_humble/proyecto_ws/KIT_Phantom_X_Pincher_ROS2/phantom_ws/install/pincher_cproyect/lib/python3.10/site-packages/pincher_cproyect
+[2.511s] byte-compiling /home/david/ros_humble/proyecto_ws/KIT_Phantom_X_Pincher_ROS2/phantom_ws/install/pincher_cproyect/lib/python3.10/site-packages/pincher_cproyect/mover.py to mover.cpython-310.pyc
+[2.511s] running install_data
+[2.511s] running install_egg_info
+[2.515s] removing '/home/david/ros_humble/proyecto_ws/KIT_Phantom_X_Pincher_ROS2/phantom_ws/install/pincher_cproyect/lib/python3.10/site-packages/pincher_cproyect-0.0.0-py3.10.egg-info' (and everything under it)
+[2.518s] Copying ../../build/pincher_cproyect/pincher_cproyect.egg-info to /home/david/ros_humble/proyecto_ws/KIT_Phantom_X_Pincher_ROS2/phantom_ws/install/pincher_cproyect/lib/python3.10/site-packages/pincher_cproyect-0.0.0-py3.10.egg-info
+[2.533s] running install_scripts
+[2.665s] Installing mover script to /home/david/ros_humble/proyecto_ws/KIT_Phantom_X_Pincher_ROS2/phantom_ws/install/pincher_cproyect/lib/pincher_cproyect
+[2.666s] writing list of installed files to '/home/david/ros_humble/proyecto_ws/KIT_Phantom_X_Pincher_ROS2/phantom_ws/build/pincher_cproyect/install.log'
+[2.783s] Invoked command in '/home/david/ros_humble/proyecto_ws/KIT_Phantom_X_Pincher_ROS2/phantom_ws/src/pincher_cproyect' returned '0': PYTHONPATH=/home/david/ros_humble/proyecto_ws/KIT_Phantom_X_Pincher_ROS2/phantom_ws/build/pincher_cproyect/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/david/ros_humble/proyecto_ws/KIT_Phantom_X_Pincher_ROS2/phantom_ws/install/pincher_cproyect/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/pincher_cproyect build --build-base /home/david/ros_humble/proyecto_ws/KIT_Phantom_X_Pincher_ROS2/phantom_ws/build/pincher_cproyect/build install --record /home/david/ros_humble/proyecto_ws/KIT_Phantom_X_Pincher_ROS2/phantom_ws/build/pincher_cproyect/install.log --single-version-externally-managed install_data

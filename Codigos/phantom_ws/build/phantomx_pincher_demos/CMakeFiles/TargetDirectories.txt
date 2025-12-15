@@ -1,0 +1,9 @@
+/home/david/ros_humble/proyecto_ws/KIT_Phantom_X_Pincher_ROS2/phantom_ws/build/phantomx_pincher_demos/CMakeFiles/uninstall.dir
+/home/david/ros_humble/proyecto_ws/KIT_Phantom_X_Pincher_ROS2/phantom_ws/build/phantomx_pincher_demos/CMakeFiles/phantomx_pincher_demos_uninstall.dir
+/home/david/ros_humble/proyecto_ws/KIT_Phantom_X_Pincher_ROS2/phantom_ws/build/phantomx_pincher_demos/CMakeFiles/test.dir
+/home/david/ros_humble/proyecto_ws/KIT_Phantom_X_Pincher_ROS2/phantom_ws/build/phantomx_pincher_demos/CMakeFiles/edit_cache.dir
+/home/david/ros_humble/proyecto_ws/KIT_Phantom_X_Pincher_ROS2/phantom_ws/build/phantomx_pincher_demos/CMakeFiles/rebuild_cache.dir
+/home/david/ros_humble/proyecto_ws/KIT_Phantom_X_Pincher_ROS2/phantom_ws/build/phantomx_pincher_demos/CMakeFiles/list_install_components.dir
+/home/david/ros_humble/proyecto_ws/KIT_Phantom_X_Pincher_ROS2/phantom_ws/build/phantomx_pincher_demos/CMakeFiles/install.dir
+/home/david/ros_humble/proyecto_ws/KIT_Phantom_X_Pincher_ROS2/phantom_ws/build/phantomx_pincher_demos/CMakeFiles/install/local.dir
+/home/david/ros_humble/proyecto_ws/KIT_Phantom_X_Pincher_ROS2/phantom_ws/build/phantomx_pincher_demos/CMakeFiles/install/strip.dir

@@ -1,0 +1,11 @@
+/home/david/ros_humble/proyecto_ws/KIT_Phantom_X_Pincher_ROS2/phantom_ws/build/phantomx_pincher_commander_cpp/CMakeFiles/uninstall.dir
+/home/david/ros_humble/proyecto_ws/KIT_Phantom_X_Pincher_ROS2/phantom_ws/build/phantomx_pincher_commander_cpp/CMakeFiles/phantomx_pincher_commander_cpp_uninstall.dir
+/home/david/ros_humble/proyecto_ws/KIT_Phantom_X_Pincher_ROS2/phantom_ws/build/phantomx_pincher_commander_cpp/CMakeFiles/test_moveit.dir
+/home/david/ros_humble/proyecto_ws/KIT_Phantom_X_Pincher_ROS2/phantom_ws/build/phantomx_pincher_commander_cpp/CMakeFiles/commander.dir
+/home/david/ros_humble/proyecto_ws/KIT_Phantom_X_Pincher_ROS2/phantom_ws/build/phantomx_pincher_commander_cpp/CMakeFiles/test.dir
+/home/david/ros_humble/proyecto_ws/KIT_Phantom_X_Pincher_ROS2/phantom_ws/build/phantomx_pincher_commander_cpp/CMakeFiles/edit_cache.dir
+/home/david/ros_humble/proyecto_ws/KIT_Phantom_X_Pincher_ROS2/phantom_ws/build/phantomx_pincher_commander_cpp/CMakeFiles/rebuild_cache.dir
+/home/david/ros_humble/proyecto_ws/KIT_Phantom_X_Pincher_ROS2/phantom_ws/build/phantomx_pincher_commander_cpp/CMakeFiles/list_install_components.dir
+/home/david/ros_humble/proyecto_ws/KIT_Phantom_X_Pincher_ROS2/phantom_ws/build/phantomx_pincher_commander_cpp/CMakeFiles/install.dir
+/home/david/ros_humble/proyecto_ws/KIT_Phantom_X_Pincher_ROS2/phantom_ws/build/phantomx_pincher_commander_cpp/CMakeFiles/install/local.dir
+/home/david/ros_humble/proyecto_ws/KIT_Phantom_X_Pincher_ROS2/phantom_ws/build/phantomx_pincher_commander_cpp/CMakeFiles/install/strip.dir

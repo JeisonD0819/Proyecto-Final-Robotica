@@ -1,0 +1,21 @@
+[3.705s] Invoking command in '/home/david/ros_humble/proyecto_ws/KIT_Phantom_X_Pincher_ROS2/phantom_ws/src/pincher_cproyect': PYTHONPATH=/home/david/ros_humble/proyecto_ws/KIT_Phantom_X_Pincher_ROS2/phantom_ws/build/pincher_cproyect/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/david/ros_humble/proyecto_ws/KIT_Phantom_X_Pincher_ROS2/phantom_ws/install/pincher_cproyect/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/pincher_cproyect build --build-base /home/david/ros_humble/proyecto_ws/KIT_Phantom_X_Pincher_ROS2/phantom_ws/build/pincher_cproyect/build install --record /home/david/ros_humble/proyecto_ws/KIT_Phantom_X_Pincher_ROS2/phantom_ws/build/pincher_cproyect/install.log --single-version-externally-managed install_data
+[5.398s] running egg_info
+[5.400s] writing ../../build/pincher_cproyect/pincher_cproyect.egg-info/PKG-INFO
+[5.400s] writing dependency_links to ../../build/pincher_cproyect/pincher_cproyect.egg-info/dependency_links.txt
+[5.404s] writing entry points to ../../build/pincher_cproyect/pincher_cproyect.egg-info/entry_points.txt
+[5.405s] writing requirements to ../../build/pincher_cproyect/pincher_cproyect.egg-info/requires.txt
+[5.411s] writing top-level names to ../../build/pincher_cproyect/pincher_cproyect.egg-info/top_level.txt
+[5.421s] reading manifest file '../../build/pincher_cproyect/pincher_cproyect.egg-info/SOURCES.txt'
+[5.427s] writing manifest file '../../build/pincher_cproyect/pincher_cproyect.egg-info/SOURCES.txt'
+[5.427s] running build
+[5.427s] running build_py
+[5.428s] running install
+[5.438s] running install_lib
+[5.438s] running install_data
+[5.447s] running install_egg_info
+[5.466s] removing '/home/david/ros_humble/proyecto_ws/KIT_Phantom_X_Pincher_ROS2/phantom_ws/install/pincher_cproyect/lib/python3.10/site-packages/pincher_cproyect-0.0.0-py3.10.egg-info' (and everything under it)
+[5.466s] Copying ../../build/pincher_cproyect/pincher_cproyect.egg-info to /home/david/ros_humble/proyecto_ws/KIT_Phantom_X_Pincher_ROS2/phantom_ws/install/pincher_cproyect/lib/python3.10/site-packages/pincher_cproyect-0.0.0-py3.10.egg-info
+[5.473s] running install_scripts
+[5.584s] Installing mover script to /home/david/ros_humble/proyecto_ws/KIT_Phantom_X_Pincher_ROS2/phantom_ws/install/pincher_cproyect/lib/pincher_cproyect
+[5.592s] writing list of installed files to '/home/david/ros_humble/proyecto_ws/KIT_Phantom_X_Pincher_ROS2/phantom_ws/build/pincher_cproyect/install.log'
+[5.682s] Invoked command in '/home/david/ros_humble/proyecto_ws/KIT_Phantom_X_Pincher_ROS2/phantom_ws/src/pincher_cproyect' returned '0': PYTHONPATH=/home/david/ros_humble/proyecto_ws/KIT_Phantom_X_Pincher_ROS2/phantom_ws/build/pincher_cproyect/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/david/ros_humble/proyecto_ws/KIT_Phantom_X_Pincher_ROS2/phantom_ws/install/pincher_cproyect/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/pincher_cproyect build --build-base /home/david/ros_humble/proyecto_ws/KIT_Phantom_X_Pincher_ROS2/phantom_ws/build/pincher_cproyect/build install --record /home/david/ros_humble/proyecto_ws/KIT_Phantom_X_Pincher_ROS2/phantom_ws/build/pincher_cproyect/install.log --single-version-externally-managed install_data

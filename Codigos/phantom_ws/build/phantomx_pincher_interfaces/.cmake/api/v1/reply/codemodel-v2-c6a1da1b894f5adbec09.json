@@ -1,0 +1,233 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-8281408281fc9ef63a07.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				},
+				{
+					"build" : "phantomx_pincher_interfaces__py",
+					"jsonFile" : "directory-phantomx_pincher_interfaces__py-6caf2db1714e4ea99c80.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/david/ros_humble/proyecto_ws/KIT_Phantom_X_Pincher_ROS2/phantom_ws/build/phantomx_pincher_interfaces/phantomx_pincher_interfaces__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "phantomx_pincher_interfaces",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_phantomx_pincher_interfaces_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_phantomx_pincher_interfaces_egg-9d12f7832eeda6be108d.json",
+					"name" : "ament_cmake_python_build_phantomx_pincher_interfaces_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_phantomx_pincher_interfaces::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_phantomx_pincher_interfaces-9b53bc695c5fff3f0a28.json",
+					"name" : "ament_cmake_python_copy_phantomx_pincher_interfaces",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "phantomx_pincher_interfaces::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-phantomx_pincher_interfaces-db6ef80c4382229146ac.json",
+					"name" : "phantomx_pincher_interfaces",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "phantomx_pincher_interfaces__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-phantomx_pincher_interfaces__cpp-63211926b470b73c0027.json",
+					"name" : "phantomx_pincher_interfaces__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "phantomx_pincher_interfaces__py::@38d37f1b1a55b8562e5f",
+					"jsonFile" : "target-phantomx_pincher_interfaces__py-5a46a594a611407a4d45.json",
+					"name" : "phantomx_pincher_interfaces__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "phantomx_pincher_interfaces__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-phantomx_pincher_interfaces__rosidl_generator_c-4018bf2003055e76b4b7.json",
+					"name" : "phantomx_pincher_interfaces__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "phantomx_pincher_interfaces__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-phantomx_pincher_interfaces__rosidl_generator_py-7787111f447f9f3b1319.json",
+					"name" : "phantomx_pincher_interfaces__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "phantomx_pincher_interfaces__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-phantomx_pincher_interfaces__rosidl_typesupport_c-d9c212bb760d9c88ab88.json",
+					"name" : "phantomx_pincher_interfaces__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "phantomx_pincher_interfaces__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-phantomx_pincher_interfaces__rosidl_typesupport_c__pyext-aa963f538d0ff63db852.json",
+					"name" : "phantomx_pincher_interfaces__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "phantomx_pincher_interfaces__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-phantomx_pincher_interfaces__rosidl_typesupport_cpp-b0d4ab51f9b6f474a28d.json",
+					"name" : "phantomx_pincher_interfaces__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "phantomx_pincher_interfaces__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-phantomx_pincher_interfaces__rosidl_typesupport_fastrtps_c-2f732a9a35b22812917e.json",
+					"name" : "phantomx_pincher_interfaces__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "phantomx_pincher_interfaces__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-phantomx_pincher_interfaces__rosidl_typesupport_fastrtps_c__pyext-db11c69aaa1932140382.json",
+					"name" : "phantomx_pincher_interfaces__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "phantomx_pincher_interfaces__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-phantomx_pincher_interfaces__rosidl_typesupport_fastrtps_cpp-139410222060a84fddbe.json",
+					"name" : "phantomx_pincher_interfaces__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "phantomx_pincher_interfaces__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-phantomx_pincher_interfaces__rosidl_typesupport_introspection_c-0b387341141f8c518952.json",
+					"name" : "phantomx_pincher_interfaces__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "phantomx_pincher_interfaces__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-phantomx_pincher_interfaces__rosidl_typesupport_introspection_c__pyext-89470677064e05126485.json",
+					"name" : "phantomx_pincher_interfaces__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "phantomx_pincher_interfaces__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-phantomx_pincher_interfaces__rosidl_typesupport_introspection_cpp-c543c4801ff44d011042.json",
+					"name" : "phantomx_pincher_interfaces__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "phantomx_pincher_interfaces_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-phantomx_pincher_interfaces_uninstall-91d214434175d9473f9a.json",
+					"name" : "phantomx_pincher_interfaces_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-b0d831f3050502793706.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/david/ros_humble/proyecto_ws/KIT_Phantom_X_Pincher_ROS2/phantom_ws/build/phantomx_pincher_interfaces",
+		"source" : "/home/david/ros_humble/proyecto_ws/KIT_Phantom_X_Pincher_ROS2/phantom_ws/src/phantomx_pincher_interfaces"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

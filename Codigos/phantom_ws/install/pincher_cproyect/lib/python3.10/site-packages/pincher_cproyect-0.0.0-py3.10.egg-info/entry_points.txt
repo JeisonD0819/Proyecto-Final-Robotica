@@ -1,0 +1,3 @@
+[console_scripts]
+mover = pincher_cproyect.mover:main
+

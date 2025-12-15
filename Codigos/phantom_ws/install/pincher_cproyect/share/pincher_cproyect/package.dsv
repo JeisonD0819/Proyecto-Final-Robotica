@@ -1,0 +1,6 @@
+source;share/pincher_cproyect/hook/pythonpath.ps1
+source;share/pincher_cproyect/hook/pythonpath.dsv
+source;share/pincher_cproyect/hook/pythonpath.sh
+source;share/pincher_cproyect/hook/ament_prefix_path.ps1
+source;share/pincher_cproyect/hook/ament_prefix_path.dsv
+source;share/pincher_cproyect/hook/ament_prefix_path.sh

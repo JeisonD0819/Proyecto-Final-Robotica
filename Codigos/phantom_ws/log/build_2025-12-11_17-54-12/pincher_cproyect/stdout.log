@@ -1,0 +1,22 @@
+running egg_info
+writing ../../build/pincher_cproyect/pincher_cproyect.egg-info/PKG-INFO
+writing dependency_links to ../../build/pincher_cproyect/pincher_cproyect.egg-info/dependency_links.txt
+writing entry points to ../../build/pincher_cproyect/pincher_cproyect.egg-info/entry_points.txt
+writing requirements to ../../build/pincher_cproyect/pincher_cproyect.egg-info/requires.txt
+writing top-level names to ../../build/pincher_cproyect/pincher_cproyect.egg-info/top_level.txt
+reading manifest file '../../build/pincher_cproyect/pincher_cproyect.egg-info/SOURCES.txt'
+writing manifest file '../../build/pincher_cproyect/pincher_cproyect.egg-info/SOURCES.txt'
+running build
+running build_py
+copying pincher_cproyect/mover.py -> /home/david/ros_humble/proyecto_ws/KIT_Phantom_X_Pincher_ROS2/phantom_ws/build/pincher_cproyect/build/lib/pincher_cproyect
+running install
+running install_lib
+copying /home/david/ros_humble/proyecto_ws/KIT_Phantom_X_Pincher_ROS2/phantom_ws/build/pincher_cproyect/build/lib/pincher_cproyect/mover.py -> /home/david/ros_humble/proyecto_ws/KIT_Phantom_X_Pincher_ROS2/phantom_ws/install/pincher_cproyect/lib/python3.10/site-packages/pincher_cproyect
+byte-compiling /home/david/ros_humble/proyecto_ws/KIT_Phantom_X_Pincher_ROS2/phantom_ws/install/pincher_cproyect/lib/python3.10/site-packages/pincher_cproyect/mover.py to mover.cpython-310.pyc
+running install_data
+running install_egg_info
+removing '/home/david/ros_humble/proyecto_ws/KIT_Phantom_X_Pincher_ROS2/phantom_ws/install/pincher_cproyect/lib/python3.10/site-packages/pincher_cproyect-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/pincher_cproyect/pincher_cproyect.egg-info to /home/david/ros_humble/proyecto_ws/KIT_Phantom_X_Pincher_ROS2/phantom_ws/install/pincher_cproyect/lib/python3.10/site-packages/pincher_cproyect-0.0.0-py3.10.egg-info
+running install_scripts
+Installing mover script to /home/david/ros_humble/proyecto_ws/KIT_Phantom_X_Pincher_ROS2/phantom_ws/install/pincher_cproyect/lib/pincher_cproyect
+writing list of installed files to '/home/david/ros_humble/proyecto_ws/KIT_Phantom_X_Pincher_ROS2/phantom_ws/build/pincher_cproyect/install.log'
