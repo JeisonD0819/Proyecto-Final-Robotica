@@ -45,10 +45,40 @@ Para la segunda parte del proyecto, se integró un módulo con relé que permiti
 Finalmente, se requería mover el robot de manera lineal mediante el uso de las teclas, es decir, controlando sus desplazamientos en los ejes X, Y y Z. Para lograr este objetivo, se implementó la cinemática inversa del robot. Una vez obtenida, fue posible controlar el movimiento en el espacio cartesiano de tal forma que, al variar una coordenada (por ejemplo, X), las demás coordenadas se mantienen constantes. Este mismo principio se aplica de manera análoga para los ejes Y y Z.
 
 ```mermaid
-flowchart LR
-    A((ROS2)) --> B((Nodo Publisher))
-    B --> C((/pose_command))
-    C --> D((Nodo Listener))
+flowchart TD
+    Inicio --> Inicializar
+    Inicializar --> CrearNodo
+    CrearNodo --> ElegirModo
+
+    ElegirModo -->|t| ModoTeclado
+    ElegirModo -->|n| ModoROS
+
+    ModoTeclado --> InicializarXYZ
+    InicializarXYZ --> LeerTecla
+
+    LeerTecla -->|w s| CambiarX
+    LeerTecla -->|a d| CambiarY
+    LeerTecla -->|q e| CambiarZ
+    LeerTecla -->|b| ActivarChupa
+    LeerTecla -->|x| Fin
+
+    CambiarX --> LeerTecla
+    CambiarY --> LeerTecla
+    CambiarZ --> LeerTecla
+    ActivarChupa --> LeerTecla
+
+    ModoROS --> EsperarMensaje
+    EsperarMensaje --> EjecutarCallback
+    EjecutarCallback --> EvaluarEntrada
+
+    EvaluarEntrada --> Movimiento
+    EvaluarEntrada --> Gripper
+    EvaluarEntrada --> ChupaArduino
+
+    Movimiento --> EsperarMensaje
+    Gripper --> EsperarMensaje
+    ChupaArduino --> EsperarMensaje
+
 ```
 
 ## Planos y elementos utilizados
