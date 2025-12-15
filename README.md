@@ -72,22 +72,12 @@ flowchart TD
 
 Para la primera parte del proyecto, se creó el paquete correspondiente y el script encargado de implementar la lógica del sistema. En nuestro caso, se propuso desarrollar un nodo que sea publisher y listener a la vez. El listener se encarga de escuchar los mensajes publicados, mientras que el publisher publica la información en el tópico definido para esta primera etapa del proyecto, el cual es /pose_command. De esta manera, es posible definir una pose tanto en el robot real como en el robot simulado, utilizando RViz, en la siguiente imagen con la ayuda de nuestra herramienta rqt podremos ver la arquitectura de nuestro nodo, con algunos de los otros nodos.
 
-### .xacro
-
-<img width="559" height="415" alt="image" src="https://github.com/user-attachments/assets/e8e9ec1d-15e8-4e19-8df6-ab76e7557156" />
-
-<img width="857" height="730" alt="image" src="https://github.com/user-attachments/assets/0fad0fa8-d727-4189-9c8e-8c1c757f9be8" />
-
-<img width="1087" height="737" alt="image" src="https://github.com/user-attachments/assets/c563e37b-3ab9-4dc3-aaca-dd64b239e572" />
-
-
-
-## Diagrama de arquitectura
+### Diagrama de arquitectura
 
 ![Diagrama de nodos](images/rqt.JPG)
 
 
-Por otro lado, para lograr una visualización completa del sistema y evitar posibles colisiones, fue necesario tener en cuenta el modelado completo del kit Phantom. Durante este proceso se identificó que faltaban algunos elementos, como la ventosa, entre otros componentes, los cuales debían ser incluidos para una representación más precisa del robot.
+Por otro lado, para lograr una visualización completa del sistema y evitar posibles colisiones, fue necesario tener en cuenta el modelado completo del kit Phantom. Durante este proceso se identificó que faltaban algunos elementos, como la ventosa, entre otros componentes, los cuales debían ser incluidos para una representación más precisa del robot. Esta parte se explica de manera detallada en ".xacro"
 
 En cuanto al control de apertura y cierre de la garra, se observó la existencia de un tópico que permitía realizar esta acción. Sin embargo, dicho tópico presentaba algunas limitaciones, por lo que se decidió controlar la garra directamente desde el nodo Pincher Controller. Una vez definido claramente este procedimiento, se procedió a manejar el robot mediante RViz, llevándolo a las trayectorias requeridas, como las necesarias para alcanzar la caja azul, la caja verde u otras ubicaciones. Al alcanzar la pose deseada, se escuchaba el tópico correspondiente para obtener la pose actual del robot y posteriormente publicarla a través de nuestro nodo publisher.
 
@@ -95,6 +85,21 @@ Para la segunda parte del proyecto, se integró un módulo con relé que permiti
 
 Finalmente, se requería mover el robot de manera lineal mediante el uso de las teclas, es decir, controlando sus desplazamientos en los ejes X, Y y Z. Para lograr este objetivo, se implementó la cinemática inversa del robot. Una vez obtenida, fue posible controlar el movimiento en el espacio cartesiano de tal forma que, al variar una coordenada (por ejemplo, X), las demás coordenadas se mantienen constantes. Este mismo principio se aplica de manera análoga para los ejes Y y Z.
 
+### .xacro
+
+Para esta parte, se editaron los diferentes archivos .xacro dados como base, los cuales contienen definiciones de hardware y configuraciones específicas del sistema de control. Para ser mas especifico se editaron los archivos (`kit.xacro`) y (`phantomx_pincher_arm.xacro`). Al editar estos y ademas subir los diferentes (`.stl`) a la carpeta (`/meshes/STL/`) podiamos visualizar el robot simulado en Rviz, como se ve en la siguiente imagen:
+
+<img width="857" height="730" alt="image" src="https://github.com/user-attachments/assets/0fad0fa8-d727-4189-9c8e-8c1c757f9be8" />
+
+Adaemas para ver el "mundo real" debiamos hacer que las coliciones envolver los diferentes componentes de kit en rectangulos
+
+<img width="1087" height="737" alt="image" src="https://github.com/user-attachments/assets/c563e37b-3ab9-4dc3-aaca-dd64b239e572" />
+
+Durante este proceso obtuvimos una dificultad con el gripper neumatico, ya que este tenia un modelado algo complejo, por lo que se decidio hacer uno mas sencillo, pero que llevara a envolver su area de trabajo para el tema de las colisiones. La propuesta que se realizo fue la siguiente:
+
+<img width="559" height="415" alt="image" src="https://github.com/user-attachments/assets/e8e9ec1d-15e8-4e19-8df6-ab76e7557156" />
+
+Finalment, cabe resaltar que el uso de un (`.xacro`) sirve para la descripción del robot PhantomX Pincher como una representación clara, modular y extensible del sistema robótico. Gracias a la separación entre estructura mecánica, geometría y control, el modelo facilita la incorporación de nuevos componentes, como sensores o herramientas, así como la adaptación a distintos entornos de simulación y control dentro del ecosistema ROS 2.
 
 ## Planos y elementos utilizados
 
