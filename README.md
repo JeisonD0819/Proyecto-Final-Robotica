@@ -55,6 +55,8 @@ Finalmente, se requería mover el robot de manera lineal mediante el uso de las 
 
 <img width="1014" height="720" alt="image" src="https://github.com/user-attachments/assets/f1521e27-2c32-4fd9-bf0c-ffe34e7b071b" />
 
+
+
 Se diseñó el circuito de tal manera que sea seguro hacer el control del relé, implementando una etapa de potencia aislada que protege al microcontrolador de sobrecargas y picos de tensión.
 
 La conexión no es directa por dos razones físicas fundamentales:
