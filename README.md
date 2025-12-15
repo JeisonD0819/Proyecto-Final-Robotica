@@ -68,6 +68,7 @@ La conexión no es directa por dos razones físicas fundamentales:
 
 <img width="1191" height="634" alt="image" src="https://github.com/user-attachments/assets/b36854b0-ae64-4cf3-a735-0fe1d0cae9c9" />
 
+Posteriormente, se subió un [código](https://github.com/JeisonD0819/Proyecto-Final-Robotica/blob/main/Codigos/Arduino/Arduino.md) al Arduino, el cual permite que con la tecla "b" o "B" el sistema se prenda, y al volverla a oprimir se apague por medio de la señal que envia al pin 8 del Arduino.
 
 
 ## Evidencia
