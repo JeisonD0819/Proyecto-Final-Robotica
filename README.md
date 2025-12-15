@@ -88,8 +88,8 @@ Finalmente, se requería mover el robot de manera lineal mediante el uso de las 
 
 ## Planos y elementos utilizados
 
+<img width="1012" height="730" alt="image" src="https://github.com/user-attachments/assets/a3ea65fb-236f-4342-93a8-38e31100c738" />
 
-<img width="1014" height="720" alt="image" src="https://github.com/user-attachments/assets/f1521e27-2c32-4fd9-bf0c-ffe34e7b071b" />
 
 
 ## Circuito para controlar la bomba
