@@ -1,3 +1,6 @@
+## Código Arduino (relé en pin 8)
+
+```cpp
 // Definimos el pin donde conectaremos la señal del relé
 const int pinRele = 8; 
 
