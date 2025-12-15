@@ -109,7 +109,7 @@ Posteriormente, se subió un [código](https://github.com/JeisonD0819/Proyecto-F
 ## Videos
 
 - Rutina de movimiento del robot para la manipulación y secuencia de los diferentes bloques. [Video](https://youtu.be/xbvq-HY6PJw)  
-- Desplazamiento lineal del robot con integración y activación de la bomba de vacío. [Video](ENLACE_2)  
+- Desplazamiento lineal del robot con integración y activación de la bomba de vacío. [Video](https://youtu.be/9mZmh_TL9Yg)  
 - Implementación completa de la bomba de vacío durante una rutina de operación (movimiento + succión). [Video](https://youtu.be/OfmL9bQwqx0)  
 
 
