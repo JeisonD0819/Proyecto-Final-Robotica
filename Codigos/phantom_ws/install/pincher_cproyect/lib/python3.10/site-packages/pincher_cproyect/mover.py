@@ -163,10 +163,13 @@ class Mover(Node):
             self.msg_poseCommand(0.002, 0.012, 0.281,-3.142,-1.511,1.401)
             #{x: 0.002, y: 0.012, z: 0.281, roll: -3.142, pitch: -1.511, yaw: 1.401
             time.sleep(3)
+            self.msg_poseCommand(-0.008, 0.099, 0.141,3.142,-0.006,1.650)
+            time.sleep(2)
             self.msg_poseCommand(0.001, 0.116, 0.112,3.142,-0.007,1.562)
             #{x: 0.001, y: 0.116, z: 0.112, roll: 3.142, pitch: -0.007, yaw: 1.562
             time.sleep(tAbiertoAV)
             self.activarchupa()
+            self.msg_poseCommand(-0.008, 0.099, 0.141,3.142,-0.006,1.650)
             self.msg_poseCommand(0.002, 0.012, 0.281,-3.142,-1.511,1.401)
             self.msg_poseCommand(0.1, 0.0, 0.14,3.142,0.0,0.0)
 
@@ -174,6 +177,8 @@ class Mover(Node):
             self.msg_poseCommand(0.002, -0.012, 0.281,-3.142,-1.511,-1.401)
             #{x: 0.002, y: -0.012, z: 0.281, roll: -3.142, pitch: -1.511, yaw: -1.401
             time.sleep(3)
+            self.msg_poseCommand(-0.008, -0.099, 0.141,3.142,-0.006,-1.650)
+            time.sleep(2)
             self.msg_poseCommand(0.003, -0.122, 0.111,3.142,-0.001,-1.547)
             #{x: 0.003, y: -0.122, z: 0.111, roll: 3.142, pitch: -0.001, yaw: -1.547
             time.sleep(tAbiertoAV)

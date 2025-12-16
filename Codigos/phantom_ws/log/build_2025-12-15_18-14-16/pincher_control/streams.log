@@ -1,0 +1,23 @@
+[2.353s] Invoking command in '/home/david/ros_humble/proyecto_ws/Proyecto-Final-Robotica/Codigos/phantom_ws/src/pincher_control': PYTHONPATH=/home/david/ros_humble/proyecto_ws/Proyecto-Final-Robotica/Codigos/phantom_ws/build/pincher_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/david/ros_humble/proyecto_ws/Proyecto-Final-Robotica/Codigos/phantom_ws/install/pincher_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/pincher_control build --build-base /home/david/ros_humble/proyecto_ws/Proyecto-Final-Robotica/Codigos/phantom_ws/build/pincher_control/build install --record /home/david/ros_humble/proyecto_ws/Proyecto-Final-Robotica/Codigos/phantom_ws/build/pincher_control/install.log --single-version-externally-managed install_data
+[2.784s] running egg_info
+[2.785s] writing ../../build/pincher_control/pincher_control.egg-info/PKG-INFO
+[2.788s] writing dependency_links to ../../build/pincher_control/pincher_control.egg-info/dependency_links.txt
+[2.788s] writing entry points to ../../build/pincher_control/pincher_control.egg-info/entry_points.txt
+[2.788s] writing requirements to ../../build/pincher_control/pincher_control.egg-info/requires.txt
+[2.788s] writing top-level names to ../../build/pincher_control/pincher_control.egg-info/top_level.txt
+[2.793s] reading manifest file '../../build/pincher_control/pincher_control.egg-info/SOURCES.txt'
+[2.793s] writing manifest file '../../build/pincher_control/pincher_control.egg-info/SOURCES.txt'
+[2.794s] running build
+[2.794s] running build_py
+[2.798s] running install
+[2.798s] running install_lib
+[2.820s] running install_data
+[2.823s] running install_egg_info
+[2.827s] removing '/home/david/ros_humble/proyecto_ws/Proyecto-Final-Robotica/Codigos/phantom_ws/install/pincher_control/lib/python3.10/site-packages/pincher_control-0.0.0-py3.10.egg-info' (and everything under it)
+[2.827s] Copying ../../build/pincher_control/pincher_control.egg-info to /home/david/ros_humble/proyecto_ws/Proyecto-Final-Robotica/Codigos/phantom_ws/install/pincher_control/lib/python3.10/site-packages/pincher_control-0.0.0-py3.10.egg-info
+[2.830s] running install_scripts
+[2.979s] Installing control_servo script to /home/david/ros_humble/proyecto_ws/Proyecto-Final-Robotica/Codigos/phantom_ws/install/pincher_control/lib/pincher_control
+[2.980s] Installing follow_joint_trajectory script to /home/david/ros_humble/proyecto_ws/Proyecto-Final-Robotica/Codigos/phantom_ws/install/pincher_control/lib/pincher_control
+[2.981s] Installing template_control_servo script to /home/david/ros_humble/proyecto_ws/Proyecto-Final-Robotica/Codigos/phantom_ws/install/pincher_control/lib/pincher_control
+[2.981s] writing list of installed files to '/home/david/ros_humble/proyecto_ws/Proyecto-Final-Robotica/Codigos/phantom_ws/build/pincher_control/install.log'
+[3.003s] Invoked command in '/home/david/ros_humble/proyecto_ws/Proyecto-Final-Robotica/Codigos/phantom_ws/src/pincher_control' returned '0': PYTHONPATH=/home/david/ros_humble/proyecto_ws/Proyecto-Final-Robotica/Codigos/phantom_ws/build/pincher_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/david/ros_humble/proyecto_ws/Proyecto-Final-Robotica/Codigos/phantom_ws/install/pincher_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/pincher_control build --build-base /home/david/ros_humble/proyecto_ws/Proyecto-Final-Robotica/Codigos/phantom_ws/build/pincher_control/build install --record /home/david/ros_humble/proyecto_ws/Proyecto-Final-Robotica/Codigos/phantom_ws/build/pincher_control/install.log --single-version-externally-managed install_data
